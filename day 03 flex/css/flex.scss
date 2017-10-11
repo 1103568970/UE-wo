@@ -1,0 +1,31 @@
+html{
+  padding:0;
+  margin:0;
+  body{
+    background: #ccc;
+    .box-flex{
+
+      display: flex;
+      div{
+        &:nth-child(1){
+          background: green;
+          width: 100px;
+          height: 200px;
+
+      }
+        &:nth-child(2){
+          background: red;
+          //flex: 1;
+          flex-basis: 50%;
+          flex-wrap: wrap;
+        }
+        &:nth-child(3){
+          background: blue;
+          //flex: 1;
+          flex-basis: 50%;
+        }
+      }
+
+    }
+  }
+}
