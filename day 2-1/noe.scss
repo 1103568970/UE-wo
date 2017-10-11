@@ -1,0 +1,44 @@
+$sc:25;
+@mixin widths{
+  width:100%;
+}
+html{
+  @include widths;
+  height:100%;
+
+  body{
+    box-sizing:border-box;
+    padding-top: 11.375rem;
+    padding-bottom: 50/$sc+rem;
+    header{
+      height: 50/$sc+rem;
+      @include widths;
+      position: fixed;
+      top:0;
+      background: blue;
+      color: #ffffff;
+      text-align: center;
+      line-height: 50/$sc+rem;
+    }
+    section{
+      overflow: auto;
+      @extend html;
+    }
+    footer{
+      height:50/$sc+rem;
+      width: 100%;
+      position: fixed;
+      bottom:0;
+      background: blue;
+      color: #ffffff;
+      text-align: center;
+      line-height: 50/$sc+rem;
+    }
+    img{
+      position: fixed;
+      top: 50/$sc+rem;
+      @include widths;
+    }
+
+  }
+}

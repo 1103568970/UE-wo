@@ -1,0 +1,33 @@
+html, html body section {
+  width: 100%;
+  height: 100%; }
+  html body, html body section body {
+    box-sizing: border-box;
+    padding-top: 11.375rem;
+    padding-bottom: 2rem; }
+    html body header {
+      height: 2rem;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      background: blue;
+      color: #ffffff;
+      text-align: center;
+      line-height: 2rem; }
+    html body section {
+      overflow: auto; }
+    html body footer {
+      height: 2rem;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      background: blue;
+      color: #ffffff;
+      text-align: center;
+      line-height: 2rem; }
+    html body img {
+      position: fixed;
+      top: 2rem;
+      width: 100%; }
+
+/*# sourceMappingURL=noe.css.map */
